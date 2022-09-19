@@ -15,10 +15,8 @@ function Counter() {
         <Button variant="danger" onClick={() => setCount(0)}>
            RESET
         </Button>
-
      </div>
       );
   }
-
 
   export default Counter;

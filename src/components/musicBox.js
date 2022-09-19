@@ -30,7 +30,6 @@ class MusicBox extends Component {
       });
     }
 
-    
     buttonPush() {
       const reqOne =  axios.get(`http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist=${this.state.inputArtist}&api_key=ccc615426c5787f6b49763993e7bfab3&format=json`);
       const reqTwo =  axios.get(`http://ws.audioscrobbler.com/2.0/?method=artist.gettopalbums&artist=${this.state.inputArtist}&api_key=ccc615426c5787f6b49763993e7bfab3&format=json`);
@@ -52,7 +51,6 @@ class MusicBox extends Component {
       })).catch(errors => {
         // react on errors.
       })}
-
 
     render() {
         return (
