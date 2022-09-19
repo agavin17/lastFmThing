@@ -13,9 +13,11 @@ function App() {
     <header className="App-header">
         <h1>Hello...Enter A Band/Artist Below</h1>
         <MusicBox />
-        <Counter />
+      
+      
 
     </header>
+    <div style= {{background:"yellow"}}><Counter /></div> 
 
 
 
